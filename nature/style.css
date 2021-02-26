@@ -1,0 +1,285 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif, Ubuntu;
+  font-size: 42px;
+  font-size: 20px;
+}
+p {
+  color: #0a0a0aab;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+}
+h1 {
+  font-size: 42px;
+}
+h2 {
+  font-size: 38px;
+}
+h3 {
+  font-size: 34px;
+}
+h4 {
+  font-size: 30px;
+}
+h5 {
+  font-size: 24px;
+}
+h6 {
+  font-size: 20px;
+}
+
+#header {
+  text-align: center;
+  /* background-color: #0a0a0aab; */
+}
+#header #logo {
+  margin: 25px;
+  width: 100px;
+  height: 100px;
+}
+#header #brand {
+  margin-top: 0;
+  padding-top: 0;
+  font-size: 42px;
+}
+#header #navbar {
+  list-style-type: none;
+}
+#header #navbar li {
+  display: inline-block;
+}
+#header #navbar li a {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  color: #0a0a0abb;
+}
+#header #navbar li a:hover,
+#header #navbar li a:focus {
+  color: #0a0a0a;
+  background-color: whitesmoke;
+}
+
+#content {
+  margin: auto;
+  width: 960px;
+  /* background-color: aqua; */
+}
+#content #welcome {
+  margin: auto;
+  width: 675px;
+  text-align: center;
+  line-height: 1.4;
+}
+#content .section-caption {
+  text-align: center;
+}
+#content #articles {
+  margin: auto;
+  margin-bottom: 50px;
+  padding-bottom: 1em;
+  width: 675px;
+  border-bottom: solid 1px lavender;
+}
+#content #articles .article {
+  padding: 25px;
+  padding-bottom: 0;
+  margin-bottom: 15px;
+}
+#content #articles .article:first-child {
+  padding-top: 0;
+}
+#content #articles .article h3.title {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 0px;
+}
+#content #articles .article p.excerpt {
+  margin: 0;
+  margin-bottom: 5px;
+}
+#content #article {
+  margin: auto;
+  margin-bottom: 50px;
+  width: 650px;
+}
+#content #article .title {
+  margin: 0;
+  padding: 10px;
+}
+#content #article p {
+  margin: 0;
+  padding: 10px;
+  font-size: 18px;
+  color: #0a0a0ad5;
+  line-height: 1.4;
+}
+#content #article ul,
+#content #article ol {
+  background-color: whitesmoke;
+}
+#content #article ul li,
+#content #article ol li {
+  padding: 10px;
+  background-color: lavender;
+  border-bottom: solid 1px silver;
+}
+#content #gallery {
+  padding: 0;
+  list-style-type: none;
+  width: 960px;
+  /* background-color: #0a0a0a; */
+}
+#content #gallery li.item {
+  margin: 0;
+  margin-bottom: 25px;
+  padding: 0;
+  display: inline-block;
+  width: 310px;
+  border: solid 1px whitesmoke;
+}
+#content #gallery .item img {
+  width: 310px;
+}
+#content #gallery .caption {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+table {
+  padding: 25px;
+  width: 960px;
+}
+table,
+th,
+td {
+  border: 1px solid lavender;
+}
+table tr {
+}
+table tr th {
+  margin: 10px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 32px;
+  text-align: left;
+  color: black;
+}
+table tr td {
+  padding: 10px;
+  font-family: sans-serif, Roboto, Ubuntu;
+  font-size: 18px;
+  color: #0a0a0aab;
+}
+table tr.total {
+  background-color: blanchedalmond;
+}
+table tr.total td {
+  font-size: 28px;
+  font-weight: bold;
+  color: brown;
+}
+.note {
+  padding: 1em;
+  font-size: 14px;
+  color: gray;
+}
+
+/* forms */
+.user-form {
+  margin: auto;
+  padding: 2em;
+  width: 500px;
+  border: solid 1px lavender;
+  border-radius: 6px;
+}
+.user-form p label {
+  display: inline-block;
+  width: 30%;
+  font-size: 16px;
+}
+.user-form .form-field {
+  padding: 1em;
+  width: 68%;
+  font-size: 16px;
+  outline: none;
+  border: solid 1px lavender;
+}
+.user-form .form-field:hover,
+.user-form .form-field:focus {
+  outline: none;
+  border: solid 1px slategray;
+}
+button {
+  margin-top: 25px;
+  padding: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  color: whitesmoke;
+  background-color: #e7625f;
+  border: solid 1px lavender;
+  border-radius: 5px;
+  transition: all 0.3s ease-out;
+}
+button:hover,
+button:focus {
+  background-color: #e7615fd3;
+  cursor: pointer;
+  opacity: 0.8;
+}
+button#register,
+button#login,
+button#subscribe-button {
+  float: right;
+  background-color: #00a300;
+}
+button#register:hover,
+button#register:focus,
+button#login:hover,
+button#login:focus,
+button#subscribe-button:hover,
+button#subscribe-button:focus {
+  background-color: #00a300d7;
+}
+
+/* end forms */
+
+#top {
+  display: block;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  color: #0a0a0a;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  transition: all 0.3s ease-out;
+}
+#top:hover {
+  padding: 15px;
+}
+
+#footer {
+  margin: 0;
+  margin-top: 50px;
+  padding: 1.15em;
+  text-align: center;
+  font-size: 16px;
+  color: #0a0a0a9c;
+  border-top: solid 1px lavender;
+}
